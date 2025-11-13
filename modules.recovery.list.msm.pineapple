@@ -2,6 +2,7 @@ adsp_loader_dlkm.ko
 adsp_sleepmon.ko
 altmode-glink.ko
 arm_smmu.ko
+at803x.ko
 bam_dma.ko
 bcl_pmic5.ko
 bcl_soc.ko

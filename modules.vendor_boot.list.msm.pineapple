@@ -1,4 +1,5 @@
 arm_smmu.ko
+at803x.ko
 bcl_pmic5.ko
 camcc-cliffs.ko
 camcc-pineapple.ko
