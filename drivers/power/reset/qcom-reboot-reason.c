@@ -38,6 +38,7 @@ static struct poweroff_reason pon_reasons[] = {
 	{ "dm-verity device corrupted",	0x04, 0x1 },
 	{ "dm-verity enforcing",	0x05, 0x1 },
 	{ "keys clear",			0x06, 0x1 },
+	{ "shipmode",			0x20, 0x2 },
 #ifdef OPLUS_OEM_BOOT_MODE
 	{ "silence",			0x21 },//PON_RESTART_REASON_SILENCE= 0x21,
 	{ "sau",			0x22 },//PON_RESTART_REASON_SAU= 0x22,
