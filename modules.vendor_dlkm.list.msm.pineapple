@@ -210,6 +210,7 @@ rmnet_sch.ko
 rmnet_shs.ko
 rmnet_wlan.ko
 rproc_qcom_common.ko
+sdca_registers_dlkm.ko
 sg.ko
 si_haptic.ko
 slimbus.ko
