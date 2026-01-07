@@ -2746,9 +2746,10 @@ static void ufs_qcom_set_caps(struct ufs_hba *hba)
 			UFSHCD_CAP_AUTO_BKOPS_SUSPEND |
 			UFSHCD_CAP_AGGR_POWER_COLLAPSE |
 			UFSHCD_CAP_WB_WITH_CLK_SCALING;
-		if (!host->disable_wb_support)
-			hba->caps |= UFSHCD_CAP_WB_EN;
 	}
+
+	if (!host->disable_wb_support)
+		hba->caps |= UFSHCD_CAP_WB_EN;
 
 	if (!(hba->caps & UFSHCD_CAP_CLK_SCALING) && of_property_read_bool(np, "irq_toggle_affinity_by_ioloading")) {
 		host->irq_toggle_affinity_by_ioloading = true;
